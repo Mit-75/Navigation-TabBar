@@ -13,6 +13,12 @@
 		33A490062B9F649C00CE4759 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 33A490052B9F649C00CE4759 /* Base */; };
 		33A490082B9F649F00CE4759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A490072B9F649F00CE4759 /* Assets.xcassets */; };
 		33A4900B2B9F649F00CE4759 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 33A4900A2B9F649F00CE4759 /* Base */; };
+		33A490132B9F64DD00CE4759 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A490122B9F64DD00CE4759 /* MainViewController.swift */; };
+		33A490152B9F6F9400CE4759 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A490142B9F6F9400CE4759 /* SettingsViewController.swift */; };
+		33A490172BA00FAD00CE4759 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A490162BA00FAD00CE4759 /* FirstViewController.swift */; };
+		33A490192BA00FC200CE4759 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A490182BA00FC200CE4759 /* SecondViewController.swift */; };
+		33A4901B2BA00FE100CE4759 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A4901A2BA00FE000CE4759 /* ThirdViewController.swift */; };
+		33A4901D2BA0101400CE4759 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A4901C2BA0101400CE4759 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		33A490072B9F649F00CE4759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33A4900A2B9F649F00CE4759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33A4900C2B9F649F00CE4759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A490122B9F64DD00CE4759 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		33A490142B9F6F9400CE4759 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		33A490162BA00FAD00CE4759 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		33A490182BA00FC200CE4759 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		33A4901A2BA00FE000CE4759 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		33A4901C2BA0101400CE4759 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,15 @@
 		33A48FFD2B9F649C00CE4759 /* Navigation$TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				33A490022B9F649C00CE4759 /* ViewController.swift */,
+				33A490122B9F64DD00CE4759 /* MainViewController.swift */,
+				33A490142B9F6F9400CE4759 /* SettingsViewController.swift */,
+				33A490162BA00FAD00CE4759 /* FirstViewController.swift */,
+				33A490182BA00FC200CE4759 /* SecondViewController.swift */,
+				33A4901A2BA00FE000CE4759 /* ThirdViewController.swift */,
+				33A4901C2BA0101400CE4759 /* TabBarViewController.swift */,
 				33A48FFE2B9F649C00CE4759 /* AppDelegate.swift */,
 				33A490002B9F649C00CE4759 /* SceneDelegate.swift */,
-				33A490022B9F649C00CE4759 /* ViewController.swift */,
 				33A490042B9F649C00CE4759 /* Main.storyboard */,
 				33A490072B9F649F00CE4759 /* Assets.xcassets */,
 				33A490092B9F649F00CE4759 /* LaunchScreen.storyboard */,
@@ -141,6 +159,12 @@
 				33A490032B9F649C00CE4759 /* ViewController.swift in Sources */,
 				33A48FFF2B9F649C00CE4759 /* AppDelegate.swift in Sources */,
 				33A490012B9F649C00CE4759 /* SceneDelegate.swift in Sources */,
+				33A490172BA00FAD00CE4759 /* FirstViewController.swift in Sources */,
+				33A4901D2BA0101400CE4759 /* TabBarViewController.swift in Sources */,
+				33A490192BA00FC200CE4759 /* SecondViewController.swift in Sources */,
+				33A490152B9F6F9400CE4759 /* SettingsViewController.swift in Sources */,
+				33A490132B9F64DD00CE4759 /* MainViewController.swift in Sources */,
+				33A4901B2BA00FE100CE4759 /* ThirdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,9 +331,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "DmitryParhomenko.Navigation-TabBar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -335,9 +363,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "DmitryParhomenko.Navigation-TabBar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
